@@ -9,36 +9,37 @@ class SongRepositoryMock implements SongRepository {
       id: 's1',
       title: 'Mock Song 1',
       artistId: 'Mock Artist',
-      imageUrl: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d',
+      imageUrl: Uri.parse('https://images.unsplash.com/photo-1511379938547-c1f69419868d',).toString(),
       duration: const Duration(minutes: 2, seconds: 50),
-      
     ),
     Song(
       id: 's2',
       title: 'Mock Song 2',
       artistId: 'Mock Artist',
-      imageUrl: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91',
+      imageUrl: Uri.parse('https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91').toString(),
       duration: const Duration(minutes: 3, seconds: 20),
     ),
     Song(
       id: 's3',
       title: 'Mock Song 3',
       artistId: 'Mock Artist',
-      imageUrl: 'https://images.unsplash.com/photo-1497032205916-ac775f0649ae',
+      imageUrl: Uri.parse(
+        'https://images.unsplash.com/photo-1497032205916-ac775f0649ae',
+      ).toString(),
       duration: const Duration(minutes: 3, seconds: 20),
     ),
     Song(
       id: 's4',
       title: 'Mock Song 4',
       artistId: 'Mock Artist',
-      imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330',
+      imageUrl: Uri.parse('https://images.unsplash.com/photo-1494790108377-be9c29b29330').toString(),
       duration: const Duration(minutes: 3, seconds: 20),
     ),
     Song(
       id: 's5',
       title: 'Mock Song 5',
       artistId: 'Mock Artist',
-      imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e',
+      imageUrl: Uri.parse('https://images.unsplash.com/photo-1500648767791-00dcc994a43e').toString(),
       duration: const Duration(minutes: 3, seconds: 20),
     ),
   ];

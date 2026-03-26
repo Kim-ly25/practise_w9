@@ -4,7 +4,7 @@ import 'ui/screens/library/library_screen.dart';
 import 'ui/screens/settings/settings_screen.dart';
 import 'ui/states/settings_state.dart';
 import 'ui/theme/theme.dart';
-import 'ui/screens/artists/artists_creen.dart';
+import 'ui/screens/artists/artists_screen.dart';
 
 ///
 /// Launch the application with the given list of providers

@@ -29,15 +29,5 @@ class SongRepositoryFirebase extends SongRepository {
   }
 
   @override
-  Future<Song?> fetchSongById(String id) async {
-    final List<Song> songs = await fetchSongs();
-
-    for (final song in songs) {
-      if (song.id == id) {
-        return song;
-      }
-    }
-
-    return null;
-  }
+  Future<Song?> fetchSongById(String id) async {}
 }
